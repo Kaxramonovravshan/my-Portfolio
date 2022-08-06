@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Site</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- navbar -->
+    <div>
+        <div class="navbar-container ">
+            <div class="navbar all_navbar py-1 container-my container-my-sm px-sm-2 d-flex justify-content-between flex-wrap  align-items-center w-sm-100">
+                <div onclick="handleToggle()" class="bars-container  mr-sm-3 d-none"  >
+                    <div class='bars'></div>
+                </div>
+                <h1 class="text-white m-0">Port <span class="text-yellow">folio</span></h1>
+                <div class="">
+                    <ul class="d-flex d-sm-none align-items-center">
+                        <a class="text-white fs-15 m-0" href=""><li class="p-2 hover_li">HOME</li></a>
+                        <a class="text-white fs-15 m-0" href=""><li class="p-2 hover_li">About</li></a>
+                        <a class="text-white fs-15 m-0" href=""><li class="p-2 hover_li">Skills</li></a>
+                        <a class="text-white fs-15 m-0" href=""><li class="p-2 hover_li">Projects</li></a>
+                        <a class="text-white fs-15 m-0" href=""><li class="p-2 hover_li">Contact</li></a>
+                    </ul>
+                </div>
+            </div>
+            <div class = 'accaunt-navigator-hidden-container d-none '>
+                <div class = 'accaunt-navigator-hidden bg-white border-top-light border-right-light  ' >
+                    <div class='hidden-menu-header'>
+                        <div class="border-bottom-light flex-wrap d-flex justify-content-between align-items-center py-2 container">
+                            <a class='logo ' href="">
+                                <h1 class="text-white m-0">Port <span class="text-yellow">folio</span></h1>
+                            </a> 
+                            <p onclick="handleToggle()" class="text-white fs-25">X</p>
+                        </div>
+                        <div class="px-sm-2 mt-4">
+                            <ul class="grid-1 gap-1">
+                                <a class="text-white fs-25 p-2 br" href=""><li class="px-1">Home</li></a>
+                                <a class="text-white fs-25 p-2 br" href=""><li class="px-1">About</li></a>
+                                <a class="text-white fs-25 p-2 br" href=""><li class="px-1">Skills</li></a>
+                                <a class="text-white fs-25 p-2 br" href=""><li class="px-1">Projects</li></a>
+                                <a class="text-white fs-25 p-2 br" href=""><li class="px-1">Contact</li></a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+    </div>
+    <!-- navbar -->
+    
+    <!-- Mobil-1 -->
+    <!-- Section-1 -->
+    <div class="sm-back-img  d-none d-sm-block">
+        <div class="d-flex justify-content-center mobil-h">
+        <div class="text-white w-sm-90 ml-sm-">
+            <div class="pt-5">
+                <!-- <h4 class="mb-2 mt-sm-0 fs-20">Hello, I’m</h4> -->
+                <h1 class="fs-28 mt-0 mb-3 name-title">Ravshan Qahramonov</h1>
+                <h3 class="mt-0 mb-3 fs-20">Web Developer</h3>
+                <div class="btn_h border-yellow rounded-1 text-white w-50 p-2 d-flex align-items-center justify-content-center">
+                    <span class="b-1 mr-2">Contact Me</span><i class='bx bx-sm bx-right-arrow-alt'></i>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- Desktop-1 -->
+    <!-- Section-1 -->
+    <div class="back_img container-my d-sm-none">
+        <div class="d-flex align-items-center justify-content-between">
+        <div class="text-white">
+            <h4 class="mb-1">Hello, I’m</h4>
+            <h1 class="fs-50 b-0 mt-0 mb-1">Qahramonov <span class="text-yellow">Ravshan</span> </h1>
+            <h3 class="mt-0 mb-3 b-1 fs-28">Web Developer</h3>
+            <div class="btn_h border-yellow rounded-1 text-white w-30 py-2 px-3 d-flex align-items-center justify-content-center">
+                <span class="b-1 mr-1">Contact Me</span><i class='bx bx-sm bx-right-arrow-alt'></i>
+            </div>
+        </div>
+        <div class="my-img">
+            <img class="" src="img/photo_2022-07-26_17-01-51.jpg" alt="">
+        </div>
+        </div>
+    </div>
+
+    <!-- Mobil-2 -->
+    <!-- Section-2 -->
+    <div class="section-two d-none d-sm-block container-my-sm pt-3">
+        <p class="text-white b-0 fs-40 mb-5"><span class="abo">Abo</span>ut me</p>
+        <div class="w-80 mx-auto img-father-sm mb-4">
+            <img class="w-100 rounded-2 " src="img/photo_2022-07-27_01-48-08.jpg" alt="">
+        </div>
+
+        <div class="text-center text-white b-0 pb-sm-3">
+            <h1 class="mb-3">Who I Am?</h1>
+            <p class="mb-3">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at tellus semper lacus varius suscipit. Suspendisse pulvinar, justo id scelerisque efficitur, quam augue pharetra metus, ultricies finibus elit ipsum vitae.
+            </p>
+            <p class="mb-4">
+                Cupiditate recusandae laudantium esse, harum animi aspernatur quisquam et delectus ipsum quam alias quaerat? Quasi hic quidem illum 
+            </p>
+            <button class="btn btn-yellow rounded-1 mx-auto text-ocean">Download Resume <i class='bx bx-sm bxs-download'></i></button>
+        </div>
+    </div>
+
+
+    <!-- Desktop-2 -->
+    <!-- Section-2 -->
+    <div class="section-two px-5 d-sm-none">
+        <h1 class="mt-0 mb-5 fs-50 about-me"><span class="abo">Abo</span>ut Me</h1>
+        <div class="d-flex align-items-center justify-content-center">
+        <div data-aos="fade-up" data-aos-duration="1000" class="img-father w-40 mr-5">
+            <div class="border-img w-80">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt eum quam eius assumenda? Ipsum similique, dolore dolorum eaque quidem quod voluptatum deleniti consequuntur eveniet perspiciatis eos at unde minus et.
+            </div>
+            <img class="w-80 me-img" src="img/photo_2022-07-27_01-48-08.jpg" alt="">
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1000" class="text-white w-40">
+            <h3 class="text-white text-center mb-4">Who I Am?</h3>
+            <p class="text-white text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam esse, modi sequi quia velit incidunt autem eius assumenda ipsum veniam adipisci laborum voluptates aperiam nam, in officiis maiores aut sint excepturi dolor. Beatae, modi omnis!
+            </p>
+            <p class="text-white text-center mb-5">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam fuga ad impedit atque! Quasi eius non voluptate voluptates suscipit iste!
+            </p>
+            <div class="btn-resume justify-content-center fs-16 d-flex align-items-center">Dowload Resume <i class='bx bx-sm bxs-download'></i></div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Destop-3 -->
+    <!-- Section-3 -->
+    <div class="section-3 container-my container-my-sm pt-4">
+        <h2 class="text-white mt-0 mb-5 mb-sm-3 fs-50 fs-sm-40 b-0 text-center">My S<span class="abo">kills</span></h2>
+        <div class=" d-flex d-sm-block align-items-center justify-content-between">
+            <div class="w-40 w-sm-100 mb-sm-4" data-aos="fade-right">
+                <p class="text-white fs-23 mb-5 mb-sm-3">My creative <span class="text-yellow">skills</span> and <span class="text-yellow">experiences.</span></p>
+                <p class="text-white">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ratione error est recusandae consequatur, iusto illum deleniti quidem impedit, quos quaerat quis minima sequi. Cupiditate recusandae laudantium esse, harum animi aspernatur quisquam et delectus ipsum quam alias quaerat? Quasi hic quidem illum. Ad delectus natus aut hic explicabo minus quod.
+                </p>
+            </div>
+            <div class="w-40 w-sm-100" data-aos="fade-left">
+                <div class="mb-3">
+                    <div class="mb-1 d-flex align-items-center justify-content-between text-white">
+                        <p>HTML</p>
+                        <p>90%</p>
+                    </div>
+                    <div class="animation">
+                        <div class="animation-1"></div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <div class="mb-1 d-flex align-items-center justify-content-between text-white">
+                        <p>Css</p>
+                        <p>80%</p>
+                    </div>
+                    <div class="animation">
+                        <div class="animation-2"></div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <div class="mb-1 d-flex align-items-center justify-content-between text-white">
+                        <p>Java Script</p>
+                        <p>60%</p>
+                    </div>
+                    <div class="animation">
+                        <div class="animation-3"></div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <div class="mb-1 d-flex align-items-center justify-content-between text-white">
+                        <p>React Js</p>
+                        <p>60%</p>
+                    </div>
+                    <div class="animation">
+                        <div class="animation-4"></div>
+                    </div>
+                </div>
+                <div class="pb-sm-4">
+                    <div class="mb-1 d-flex align-items-center justify-content-between text-white">
+                        <p>Python, Django</p>
+                        <p>80%</p>
+                    </div>
+                    <div class="animation">
+                        <div class="animation-5"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Desktop-4 -->
+    <!-- Section-4 -->
+    <div class="section-4 pt-4 container-my container-my-sm" >
+        <h1 class="text-white mb-5 fs-50 fs-sm-40 b-0 text-center"><span class="abo">Proj</span>ects</h1>
+        <div class="w-60 mx-auto w-sm-100" data-aos="zoom-in">
+            <div class="owl-carousel owl-theme bg-dark-night p-4 p-sm-2 rounded-2">
+                <div class="item">
+                    <a target="_blank" href="http://iwi.pythonanywhere.com/">
+                        <img  class="w-100  rounded-2" src="img/photo_2022-08-03_11-55-23.jpg" alt="">
+                    </a>
+                </div>
+                <div class="item">
+                    <img class="w-100 rounded-2" src="img/orbita.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="w-100 rounded-2" src="img/orbita.jpg" alt="">
+                </div>
+                <!-- <div class="item">
+                    <h1>4</h1>
+                </div>
+                <div class="item">
+                    <h1>5</h1>
+                </div>
+                <div class="item">
+                    <h1>6</h1>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            autoplay:true,
+            autoplayTimeout:2000,
+            // nav:false,
+            // dots:false,
+            responsive:{
+                0:{
+                    items:2
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:3
+                }
+            }
+        })
+    </script>
+</body>
+</html>
